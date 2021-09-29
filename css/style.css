@@ -300,3 +300,68 @@ footer {
       .restoArticle2 .restoArticle2__contein .restoArticle2__contein__imgBox img {
         width: 100%;
         margin: .3em; }
+
+.mainCatering {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center; }
+  .mainCatering .mainCatering__text {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #554cdb;
+    color: #030303;
+    padding: 5% 2% 5% 2%; }
+    .mainCatering .mainCatering__text h1 {
+      align-items: center;
+      font-size: 2em;
+      color: #030303;
+      font-weight: 600; }
+    .mainCatering .mainCatering__text p {
+      text-align: center;
+      color: #ebf0f2;
+      font-weight: 400;
+      width: 90%; }
+  .mainCatering .mainCatering__img {
+    padding: 1em; }
+    .mainCatering .mainCatering__img img {
+      width: 100%; }
+
+.mainConsultoria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center; }
+  .mainConsultoria .mainConsultoria__text {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #554cdb;
+    color: #030303;
+    padding: 5% 2% 5% 2%; }
+    .mainConsultoria .mainConsultoria__text h1 {
+      align-items: center;
+      font-size: 2em;
+      color: #030303;
+      font-weight: 600; }
+    .mainConsultoria .mainConsultoria__text p {
+      text-align: center;
+      color: #ebf0f2;
+      font-weight: 400;
+      width: 90%; }
+  .mainConsultoria .mainConsultoria__img {
+    padding: .1em; }
+    .mainConsultoria .mainConsultoria__img img {
+      width: 100%; }
+
+.sectionConsultoria {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin: 0; }
+  .sectionConsultoria .sectionConsultoria__img {
+    padding: .1em; }
+    .sectionConsultoria .sectionConsultoria__img img {
+      width: 100%; }

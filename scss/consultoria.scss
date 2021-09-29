@@ -1,0 +1,47 @@
+.mainConsultoria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    .mainConsultoria__text{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        background-color: $blue;
+        color: $black;
+        padding: 5% 2% 5% 2%;
+        h1 {
+            align-items: center;
+            font-size: 2em;
+            color: $black;
+            font-weight: 600;
+
+        }
+        p {
+            text-align: center;
+            color: $white;
+            font-weight: 400;
+            width: 90%; 
+        }
+    }
+    .mainConsultoria__img{
+        padding: .1em;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.sectionConsultoria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    margin:0;
+    .sectionConsultoria__img{
+        padding: .1em;
+        img{
+            width:100%
+        }
+    }
+}

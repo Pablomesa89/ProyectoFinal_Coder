@@ -7,13 +7,13 @@
         display: grid;
         justify-items: center;
         align-items: stretch;
-        background-color: #554cdb;
-        color: #030303;
+        background-color: $blue;
+        color: $black;
         padding: 5% 2% 5% 2%; 
         h1 {
             align-items: center;
             font-size: 2em;
-            color: #030303;
+            color: $black;
             font-weight: 600; 
         }
         .restoArticulo1__info_p1 {
@@ -21,7 +21,7 @@
         }
         p {
         text-align: center;
-        color: #ebf0f2;
+        color: $white;
         font-weight: 400;
         width: 90%; 
         }
@@ -37,7 +37,7 @@
             height: 70%;
             justify-items: center;
             align-items: center;
-            border: solid 5px #554cdb; 
+            border: solid 5px $blue; 
             .animate__flipInX {
                 padding: 2%;
                 text-align: center;

@@ -35,13 +35,14 @@
     }
 }
 .header__navresponsive {
-    padding: 1%; }
-    .header__navresponsive .navbar-brand {
+    padding: 1%;
+    .navbar-brand {
         font-family: "Atkinson Hyperlegible", sans-serif; }
-    .header__navresponsive .nav_style {
+    .nav_style {
         background-color: #554cdb;
         padding: 2%;
         font-weight: 600; }
+}
 
 .banner {
     font-size: 2em;
@@ -50,7 +51,7 @@
     width: 100%;
     text-align: center;
     color: black;
-    font-weight: 700; }
+    font-weight: 700; 
     a {
         color: black;
         padding: 1em;
@@ -58,3 +59,4 @@
     a:hover {
         color: #ebf0f2;
         background-color: #554cdb; }
+}

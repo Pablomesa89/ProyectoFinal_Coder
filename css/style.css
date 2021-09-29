@@ -25,13 +25,13 @@
           text-align: center; }
           .deskContainer .deskContainer__navDesk nav ul li a {
             text-decoration: none;
-            color: black;
+            color: #030303;
             font-weight: 500;
             font-size: large;
             padding: 30px;
             margin: 2em; }
           .deskContainer .deskContainer__navDesk nav ul li a:hover {
-            color: white;
+            color: #ebf0f2;
             background-color: #554cdb;
             padding: 30px;
             margin: 2em; }
@@ -161,8 +161,8 @@ section .homeArticulo2 .homeArticulo2__carousel .carousel-inner {
       justify-content: center;
       align-items: center;
       width: 70%;
-      color: black;
-      border: solid black .1em; }
+      color: #030303;
+      border: solid #030303 0.1em; }
     .contactos .contactos__box .contactos__box__datos2 {
       display: flex;
       flex-direction: column;
@@ -171,8 +171,8 @@ section .homeArticulo2 .homeArticulo2__carousel .carousel-inner {
       align-items: center;
       margin: 2%;
       width: 70%;
-      color: black;
-      border: solid black .1em; }
+      color: #030303;
+      border: solid #030303 0.1em; }
     .contactos .contactos__box .contactos__box__ubicacion {
       display: flex;
       flex-direction: column;

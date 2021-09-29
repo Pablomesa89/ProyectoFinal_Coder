@@ -7,7 +7,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #554cdb;
+        background-color: $blue;
         width: 100%;
         .contactos__box__datos1 {
             display: flex;
@@ -17,8 +17,8 @@
             justify-content: center;
             align-items: center;
             width: 70%; 
-            color: black;
-            border: solid black .1em;
+            color: $black;
+            border: solid $black .1em;
         }
         .contactos__box__datos2 {
             display: flex;
@@ -28,8 +28,8 @@
             align-items: center;
             margin: 2%;
             width: 70%; 
-            color: black;
-            border: solid black .1em;
+            color: $black;
+            border: solid $black .1em;
         }
         .contactos__box__ubicacion {
             display: flex;

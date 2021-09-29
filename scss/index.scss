@@ -9,18 +9,18 @@ main{
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: #554cdb;
-            color: #030303;
+            background-color: $blue;
+            color: $black;
             padding: 5% 2% 5% 2%;
             h1 {
                 font-size: 2em;
-                color: #030303;
+                color: $black;
                 animation-name: experienciaRegio;
                 animation-duration: 5s;
                 font-weight: 600;
                 padding-bottom: 3%;
                 p {
-                    color: #ebf0f2;
+                    color: $white;
                     font-weight: 400;
                     width: 90%; 
                 }
@@ -52,18 +52,18 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: #554cdb;
-        color: #030303;
+        background-color: $blue;
+        color: $black;
         padding: 5% 2% 5% 2%; }
         section .homeArticulo2 .homeArticulo2__info h2 {
             font-size: 2em;
-            color: #030303;
+            color: $black;
             animation-name: experienciaRegio;
             animation-duration: 5s;
             font-weight: 600; }
         section .homeArticulo2 .homeArticulo2__info p {
             padding-top: 3%;
-            color: #ebf0f2;
+            color: $white;
             font-weight: 400;
             width: 90%; }
         section .homeArticulo2 .homeArticulo2__carousel {

@@ -192,7 +192,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  justify-items: center; }
+  justify-items: center;
+  margin-top: 2em; }
   .restoArticulo1 .restoArticulo1__info {
     display: grid;
     justify-items: center;
@@ -305,7 +306,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  justify-items: center; }
+  justify-items: center;
+  margin-top: 2em; }
   .mainCatering .mainCatering__text {
     display: grid;
     justify-items: center;
@@ -332,7 +334,8 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
-  justify-items: center; }
+  justify-items: center;
+  margin-top: 2em; }
   .mainConsultoria .mainConsultoria__text {
     display: grid;
     justify-items: center;
@@ -358,10 +361,14 @@ footer {
 .sectionConsultoria {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   justify-items: center;
-  margin: 0; }
-  .sectionConsultoria .sectionConsultoria__img {
-    padding: .1em; }
-    .sectionConsultoria .sectionConsultoria__img img {
-      width: 100%; }
+  align-items: center;
+  padding: 2em; }
+  .sectionConsultoria .sectionConsultoria__text {
+    padding: 1em;
+    width: 60%;
+    justify-content: center;
+    border: solid #554cdb 4px;
+    align-self: center;
+    text-align: center; }
